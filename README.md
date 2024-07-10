@@ -33,7 +33,7 @@
 
  ```>> dnf install ansible ```
 
-![](./img/1 ansible intall.png)
+![](./img/1_ansible_intall.png)
 
 2. Виртуальные машины настроены через Vagrantfile, предоставленный к лекции.
 
