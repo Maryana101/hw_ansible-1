@@ -98,10 +98,12 @@
 
 ### Ответ
 1. Установка mc через модуль yum:
+
 ```>> ansible my -m yum -a "name=mc state=latest" -b```
 ![](./img/7_install_mc.png)
 
 1. Проверка статуса сервиса через модуль service:
+
 ```>> ansible my -m service -a 'name=sshd' ```
 ![](./img/8_serv_status.png)
 
